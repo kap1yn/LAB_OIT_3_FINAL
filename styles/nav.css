@@ -8,7 +8,7 @@ body {
 }
 
 .my__container {
-    width: 1170px;
+
     margin: 0;
     display: flex;
     justify-content: center;
@@ -21,7 +21,7 @@ body {
     background: linear-gradient(90deg, rgba(11,205,221,1) 0%, rgba(0,255,248,1) 100%);
 }
 .box__inner {
-    width: 1170px;
+   
     margin: 0px;
     padding: 10px;
     display: flex;
