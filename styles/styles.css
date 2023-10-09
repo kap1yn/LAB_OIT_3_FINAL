@@ -84,15 +84,6 @@ p {
     color: #333;
 }   
 
-.point:after {
-    content: "▼";  
-}
-
-.point:hover:after {
-    content: "▲";
-}
-
-
 .scroll-to-top {
     display: block;
     position: fixed;

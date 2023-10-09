@@ -5,14 +5,11 @@
 
 body {
     background: linear-gradient(90deg, rgba(48, 221, 213, 0.388) 0%, rgba(175, 247, 245, 0.316) 100%);
+    margin: 0;
 }
 
 .my__container {
-
     margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin-bottom: 10px;
 }
 
@@ -67,7 +64,7 @@ a {
     cursor: pointer;
 }
 
-.mainmenubtn:hover::after {
+.mainmenubtn:hover::before {
     content: " ▼";
 }
 
