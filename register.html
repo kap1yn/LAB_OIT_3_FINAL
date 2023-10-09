@@ -34,7 +34,7 @@
 
                 <div class="item" style="margin-left: auto;">
                     <div class="dropdown">
-                        <div class="text mainmenubtn ">Menu</div>
+                        <div class="text mainmenubtn ">Menu ▼</div>
                         <div class="dropdown-child">
                             <a href="login.html">Log in</a>
                             <a href="register.html">Register</a>
@@ -53,32 +53,31 @@
             <header>
                 <h1>Реєстрація</h1>
             </header>
-            <div class="col-lg-2">
+            <div class="col-lg-2" style="display: flex">
                 <form>
                     <div class="p-2 mb-1">
                         <div class="input-field" id="swapper">
-                            <i class="fa-solid fa-user"></i>
+                            <i class="fa-solid fa-user"></i> <span >Логін</span>
                             <input type="text" placeholder="username" id="nameField">
                         </div>
                     </div>
                 
                     <div class="p-2 mb-1">
                         <div class="input-field">
-                            <i class="fa-solid fa-envelope"></i>
+                            <i class="fa-solid fa-envelope"></i> <span>Електронна пошта</span>
                             <input type="email" placeholder="Email" id="emailField" pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" required>
                         </div>
                     </div>
 
 
                     <div class="p-2 mb-1">
-                        <label for="password">Пароль (мінімум 8 символів):</label>
                         <div class="input-field mt-1">
-                            <i class="fa-solid fa-key"></i>
+                            <i class="fa-solid fa-key"></i> <span>Пароль (мінімум 8 символів)</span>
                             <input type="password" placeholder="password" id="passwordField" pattern=".{8,}" required>
                         </div>
                     </div>
                 
-                    <div class="ms-4 p-1">
+                    <div class="ms-1 p-1">
                         <button type="submit" class="btn btn-primary btn-block" style="background-color: rgb(58, 215, 229); border: none;">Sign up</button>
                     </div>
                 </form>

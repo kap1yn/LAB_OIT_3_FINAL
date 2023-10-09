@@ -64,10 +64,6 @@ a {
     cursor: pointer;
 }
 
-.mainmenubtn:hover::before {
-    content: " ▼";
-}
-
 .dropdown {
     position: relative;
     display: inline-block;
